@@ -1,0 +1,117 @@
+
+.item-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .back-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    display: inline-block;
+  }
+  
+  .back-button:hover {
+    background-color: #0056b3;
+  }
+  .item-img-con{
+    display: flex;
+    gap: 10rem;
+  }
+  
+  .item-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .item-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .item-source {
+    font-size: 16px;
+    color:rgb(4, 4, 4);
+    margin-bottom: 20px;
+    border: 2px solid black;
+    padding: 1rem;
+  }
+  
+  .item-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow:1px 2px 3px black;
+    margin-bottom: 20px;
+  }
+  
+  
+  .ingredients-section {
+    margin: 20px 0;
+    text-align: left;
+    width: 100%;
+    color: rgb(0, 0, 0);
+  }
+  
+  .ingredients-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* color: white; */
+  }
+  
+  .ingredient-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .ingredient-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    box-shadow: 1px 2px 3px black;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  
+  /* Instructions section styling */
+  .instructions-section {
+    margin-top: 30px;
+    color: white;
+  }
+  
+  .item-link {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .item-link:hover {
+    background-color: #218838;
+  }
+  
+
+  .loading {
+    font-size: 20px;
+    color: #999;
+  }
+  
